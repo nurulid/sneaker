@@ -103,6 +103,7 @@ ul#menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 #likes > div{
@@ -115,7 +116,7 @@ ul#menu{
     margin-bottom: -10px;
 }
 
-.text, .text2{
+.text{
     padding: 20px 100px 0 50px;
     font-size: 22px;
     line-height: 1.4em;
@@ -124,7 +125,29 @@ ul#menu{
 
 
 /* HYPE */
+#hype{
+    padding-top: 50px;
+}
+#hype ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+#hype li{
+    flex: 0 1 350px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#hype img{
+    width: 85%;
+}
+
+#hype p{
+    width: 88%;
+    font-size: 17px;
+}
 /* END OF HYPE */
 
 
