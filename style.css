@@ -35,12 +35,12 @@ header{
 header nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding: 30px 0;
 }
 
 header ul{
-    flex: 0 1 500px;
+    flex: 0 1 300px;
 }
 
 h1.logo{
