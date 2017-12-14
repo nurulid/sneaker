@@ -40,7 +40,7 @@ header nav{
 }
 
 header ul{
-    flex: 0 1 300px;
+    flex: 0 1 200px;
 }
 
 h1.logo{
@@ -138,17 +138,13 @@ ul#menu{
 
 #hype li{
     flex: 0 1 350px;
-    padding: 0 10px;
-    box-sizing: border-box;
+    padding: 30px 10px 20px;
+    box-sizing: border-box;    
+    font-size: 17px;
 }
 
 #hype img{
-    width: 85%;
-}
-
-#hype p{
-    width: 88%;
-    font-size: 17px;
+    width: 100%;
 }
 /* END OF HYPE */
 
@@ -208,6 +204,129 @@ footer span{
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
-
-
 /* END OF FOOTER */
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1145px){
+    .text{
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    footer li:last-child{
+        margin-top: 10px;
+    }
+
+    footer li:first-child{
+        padding-right: 30px;
+        text-align: justify;        
+    }
+}
+
+@media screen and (max-width: 990px){
+    .text h2{
+        font-size: 22px;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 1.2em;
+        padding: 20px 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: 965px){
+    header ul{
+        margin: 0 auto;
+    }
+
+    ul#menu{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 814px){
+    #likes > div{
+        flex: 0 1 100%;
+    }
+
+    .text h2{
+        font-size: 35px;
+    }
+
+    .text{
+        max-width: 600px;
+        padding: 20px 100px 0 50px;
+        font-size: 22px;
+        line-height: 1.4em;
+    }
+
+    .pict{
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #hype li{
+        padding-bottom: 20px;
+        padding-top: 60px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .desc{
+        right: 20px;
+        width: 100%;
+        float: none;
+        font-size: 20px;
+    }
+
+    #hype li{
+        border-bottom: 1px solid #ddd;
+    }
+
+}
+
+@media screen and (max-width: 555px){
+    .desc h1{
+        font-size: 35px;
+    }
+
+    #menu a{
+        padding: 0 5px 10px;
+        font-size: 16px;
+    }
+
+    .desc{
+        right: 0px;
+    }
+
+    .text h2{
+        font-size: 25px;
+    }
+
+    .text{
+        width: 100%;
+        padding: 20px 30px 0 30px;
+        font-size: 18px;
+    }
+
+    #favorite .desc h1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    ul#menu{
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 325px){
+    #menu a{
+        font-size: 14px;
+    }
+}
