@@ -34,12 +34,13 @@ header{
 
 header nav{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 30px 0;
 }
 
 header ul{
-    flex: 0 1 calc(100%/2);
+    flex: 0 1 500px;
 }
 
 h1.logo{
@@ -81,7 +82,7 @@ ul#menu{
     position: relative;
     right: 100px;
     top: 90px;
-    width: 45%;
+    width: 500px;
     float: right;
     color: #fff;
     font-size: 24px;
@@ -127,6 +128,7 @@ ul#menu{
 /* HYPE */
 #hype{
     padding-top: 50px;
+    margin-bottom: 40px;
 }
 #hype ul{
     display: flex;
@@ -152,5 +154,19 @@ ul#menu{
 
 
 /* FAVORITE */
+#favorite{
+    background: url('img/bg-last-section.jpg') no-repeat;
+    background-size: cover;
+    min-height: 768px;
+}
 
+#favorite .desc{
+    float: left;
+    right: 0px;
+    color: #000;
+}
+
+#favorite .desc h1{
+    width: 400px;
+}
 /* END OF FAVORITE */
