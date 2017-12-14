@@ -4,7 +4,7 @@ body{
     line-height: 1.5em;
 }
 
-body, ul, li, h1{
+body, ul, li, h1, h4{
     margin: 0;
     padding: 0;
 }
@@ -128,7 +128,7 @@ ul#menu{
 /* HYPE */
 #hype{
     padding-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 #hype ul{
     display: flex;
@@ -170,3 +170,44 @@ ul#menu{
     width: 400px;
 }
 /* END OF FAVORITE */
+
+/* FOOTER */
+footer{
+    background-color: #1C2225;
+    padding: 20px;
+    color: #30A9DE;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer li:first-child{
+    flex: 0 1 750px;
+    padding-left: 30px;
+}
+
+footer li:last-child{
+    flex: 0 1 250px;
+    margin-top: 90px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+footer h2{
+    color: #efdc05;
+}
+
+footer h4{
+    color: #e53a40;
+    font-size: 13px;
+}
+
+footer span{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+
+/* END OF FOOTER */
