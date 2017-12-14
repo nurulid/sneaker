@@ -1,0 +1,97 @@
+body{
+    font-size: 16px;
+    font-family: Segoe UI, Roboto;
+    line-height: 1.5em;
+}
+
+body, ul, li, h1{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    background: url('img/bg-header.jpg') no-repeat;
+    background-size: cover;
+    min-height: 760px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+header ul{
+    flex: 0 1 calc(100%/2);
+}
+
+h1.logo{
+    width: 228px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 14px 17px;
+    background: #efdc05;
+    color: #e53a40;
+}
+
+ul#menu{
+    display: flex;
+    margin-top: 7px;
+}
+
+#menu li{
+    flex: 0 1 calc(100%/5);
+}
+
+#menu a{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 20px 10px;
+}
+
+#menu a:hover{
+    border-bottom: 3px solid #fff;
+    color: #30A9DE;
+}
+
+.active{
+    color: #efdc05;
+    border-bottom: 3px solid #30A9DE;
+}
+
+.desc{
+    position: relative;
+    right: 200px;
+    top: 50px;
+    width: 40%;
+    float: right;
+    color: #fff;
+    font-size: 18px;
+}
+
+.desc h1{
+    width: 300px;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1em;
+}
+
+/* END OF HEADER */
